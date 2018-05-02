@@ -1,0 +1,108 @@
+{
+    "map_type": "cli",
+    "primary_name": "~",
+    "tile_name": [
+        "$HOME"
+    ],
+    "pos_x": 0,
+    "pos_y": 0,
+    "contents": [
+        {"name": "Library", "_type": "dir"},
+        {"name": "Downloads", "_type": "dir"},
+        {"name": "Pictures", "_type": "dir"},
+        {"name": "Documents", "_type": "dir"}
+    ],
+    "moves": [
+        {"pos_x": 1, "pos_y": 0},
+        {"pos_x": 1, "pos_y": 1},
+        {"pos_x": 1, "pos_y": 2},
+        {"pos_x": 1, "pos_y": 3}
+    ]
+}
+
+{
+    "map_type": "cli",
+    "primary_name": "Library",
+    "tile_name": [],
+    "pos_x": 1,
+    "pos_y": 0,
+    "contents": [
+        {"name": "Games", "_type": "dir"}
+    ],
+    "moves": [
+        {"pos_x": 0, "pos_y": 0},
+        {"pos_x": 2, "pos_y": 0}
+    ]
+}
+
+{
+    "map_type": "cli",
+    "primary_name": "Games",
+    "tile_name": [],
+    "pos_x": 2,
+    "pos_y": 0,
+    "contents": [
+        {"name": "text_adventure.el", "_type": "file"}
+    ],
+    "moves": [
+        {"pos_x": 1, "pos_y": 0}
+    ]
+}
+
+{
+    "map_type": "cli",
+    "primary_name": "Downloads",
+    "tile_name": [],
+    "pos_x": 1,
+    "pos_y": 1,
+    "contents": [],
+    "moves": [
+        {"pos_x": 0, "pos_y": 0}
+    ]
+}
+
+{
+    "map_type": "cli",
+    "primary_name": "Pictures",
+    "tile_name": [],
+    "pos_x": 1,
+    "pos_y": 2,
+    "contents": [
+        {"name": "Cats", "_type": "dir"}
+    ],
+    "moves": [
+        {"pos_x": 0, "pos_y": 0},
+        {"pos_x": 2, "pos_y": 2}
+    ]
+}
+
+{
+    "map_type": "cli",
+    "primary_name": "Cats",
+    "tile_name": [],
+    "pos_x": 2,
+    "pos_y": 2,
+    "contents": [
+        {"name": "cat1.png", "_type": "img"},
+        {"name": "cat2.png", "_type": "img"}
+    ],
+    "moves": [
+        {"pos_x": 1, "pos_y": 2}
+    ]
+}
+
+{
+    "map_type": "cli",
+    "primary_name": "Documents",
+    "tile_name": [],
+    "pos_x": 1,
+    "pos_y": 3,
+    "contents": [
+        {"name": "resume.pdf", "_type": "pdf"},
+        {"name": "resume.txt", "_type": "txt"},
+        {"name": "about.txt", "_type": "txt"}
+    ],
+    "moves": [
+        {"pos_x": 0, "pos_y": 0}
+    ]
+}
